@@ -1,0 +1,195 @@
+/*LOGO MC IMAGEM SUPERIOR*/
+#logomc{
+    width: 180px;
+    height: 70px;
+    margin-left: 0px;
+   
+}
+
+/* PARTE SUPERIOR DAS LISTAS*/
+
+/*MENU SUPERIOR*/
+#partetotal{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  
+    border-bottom: 2px solid rgb(196, 195, 195);
+} 
+/*LISTA SUPERIOR*/
+#partesup{
+    list-style: none;
+    color: grey;
+   
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    margin-top: 20px;
+    
+
+}
+#partesup > li{
+    margin-left:30px;
+}
+
+/*LISTA INFERIOR*/
+#parteinf{
+    list-style: none;
+    color: #000000dc;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px; 
+}
+#parteinf> li{
+    margin-left: 50px;
+}
+/*BOTÕES SUPERIORES*/
+#btnpedido, #btnbaixe{
+    border: none;
+    width: 150px;
+    height: 30px;
+}
+#btnpedido{
+background-color: gold;
+}
+#pedir{
+    width: 20px;
+    height: 150px;
+}
+
+/* MENU LATERAL COM AS OPÇÕES*/
+
+#menulateral{
+    width: 300px;
+    height: 600px;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+   
+}
+
+#prod{
+    height: 70px;
+    border-radius: 10px;
+    border: 2px solid rgba(128, 128, 128, 0.377);
+    border-left: 8px solid goldenrod;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#prod > li{
+    list-style: none;
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgba(0, 0, 0, 0.836);
+    margin: auto;
+  
+    
+}
+#prod > img{
+    margin-left: 5px;
+}
+#menuop{
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(128, 128, 128, 0.377);
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+#menuop > li {
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 50px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.836);
+
+}
+#menuop > img{
+    width: 70px;
+    height: 70px;
+    margin-top: 40px;
+    margin-left: 5px;
+    
+  
+}
+/* MEDIDAS DO TAMANHO DOS LANCHES NA LATERAL*/
+#lanche{
+    width: 70px;
+    height: 70px;
+}
+/* MENU CENTRAL*/
+#menucentral{
+    width: 500px;
+    height: 500px;
+    margin-top:50px;
+    margin-left: 20px;
+    width: 800px;
+    height: 600px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+h1{
+    text-align: center;
+    color: rgb(39, 37, 37);
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5px;
+}
+/*LANCHES CENTRAIS*/
+#lanches > img{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+ 
+    
+} 
+/*PARTE INFERIOR COM O APP PARA BAIXAR*/
+#baixeapp{
+    width: 100%;
+    height: 200px;
+    background-color: goldenrod;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+
+#logored{
+    width: 150px;
+    height: 150px;
+    margin-top: 35px;
+    margin-left: 150px;
+
+
+}
+#text{
+    width: 500px;
+    margin-left: 50px;
+}
+#text > h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px
+}
+#text > p{
+margin-top: 0px;
+}
+a{
+    color: rgb(11, 148, 202);
+}
+#carLi{
+    border-bottom: 5px solid orange;
+    border-bottom-right-radius: 10px;
+}
